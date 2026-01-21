@@ -16,3 +16,10 @@ interface PropertyProps {
     image: string;
     discount: string;
 }
+
+interface LayoutProps {
+    children: React.ReactNode;
+
+}
+
+export type { PropertyProps, LayoutProps };
