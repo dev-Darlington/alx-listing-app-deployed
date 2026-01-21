@@ -22,4 +22,13 @@ interface LayoutProps {
 
 }
 
-export type { PropertyProps, LayoutProps };
+interface ReviewProps {
+    id: string;
+    name: string;
+    avatar: string;
+    rating: number;
+    comment: string;
+    date: string;
+}
+
+export type { PropertyProps, LayoutProps, ReviewProps };
